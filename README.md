@@ -1,5 +1,5 @@
 # Boilerplate React
-## Instalación
+## Installation
 
  1. Clone the repo.
  2. Go to the root of the project and run `npm install`
