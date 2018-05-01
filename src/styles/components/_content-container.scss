@@ -1,0 +1,18 @@
+.content-container {
+    margin: 0 auto;
+    max-width: 80rem;
+    padding: 0 $m-size;
+}
+
+.content-container__distribute {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-container__inputs {
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    margin: $l-size;
+}

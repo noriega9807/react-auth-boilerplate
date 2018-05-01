@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test DashboardPage should render DashboardPage 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="input-group"
+  >
+    <div
+      className="input-group__item"
+    >
+      <span
+        className="input-span--text"
+      >
+        Latitud y longitud origen
+      </span>
+    </div>
+    <div
+      className="input-group__item"
+    >
+      <input
+        autoFocus={true}
+        className="text-input"
+        onChange={[Function]}
+        placeholder="Punto 1 latitud"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="input-group__item"
+    >
+      <input
+        className="text-input"
+        onChange={[Function]}
+        placeholder="Punto 1 longitud"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="input-group"
+  >
+    <div
+      className="input-group__item"
+    >
+      <span
+        className="input-span--text"
+      >
+        Latitud y longitud destino
+      </span>
+    </div>
+    <div
+      className="input-group__item"
+    >
+      <input
+        className="text-input"
+        onChange={[Function]}
+        placeholder="Punto 2 latitud"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="input-group__item"
+    >
+      <input
+        className="text-input"
+        onChange={[Function]}
+        placeholder="Punto 2 longitud"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <withProps(withScriptjs(withGoogleMap(lifecycle(Component))))
+    destinationLat=""
+    destinationLong=""
+    originLat=""
+    originLong=""
+  />
+</div>
+`;

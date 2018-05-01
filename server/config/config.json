@@ -1,0 +1,13 @@
+{
+    "test": {
+      "PORT": 3000,
+      "MONGODB_URI": "mongodb://localhost:27017/FlotillasTest",
+      "JWT_SECRET": "NyjxtCmptestFukB;%_f729~ch&C]XW"
+    },
+    "development": {
+      "PORT": 3000,
+      "MONGODB_URI": "mongodb://localhost:27017/Flotillas",
+      "JWT_SECRET": "NyjxtCmpFukB;%_f729~ch&C]XW"
+    }
+  
+  }

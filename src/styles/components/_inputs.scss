@@ -1,0 +1,30 @@
+.text-input {
+    border: 1px solid #cacccd;
+    font-size: $font-size-large;
+    font-weight: 300;
+    height: 50px;
+    padding: $s-size;
+    width: 100%;
+}
+
+.text-input-login {
+    margin-bottom: $m-size;
+}
+
+.select {
+    @extend .text-input;
+}
+
+
+.text-area {
+    @extend .text-input;
+    height: 10rem;
+}
+
+.input-span--text {
+    font-size: $m-size;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    padding: $s-size;
+}

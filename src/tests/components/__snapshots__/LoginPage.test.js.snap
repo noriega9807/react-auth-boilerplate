@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test LoginPage should render LoginPage 1`] = `
+<div
+  className="box-layout"
+>
+  <div
+    className="box-layout__box"
+  >
+    <h1
+      className="box-layout__title"
+    >
+      Login
+    </h1>
+    <p>
+      Ingresa tus credenciales.
+    </p>
+    <input
+      autoFocus={true}
+      className="text-input text-input-login"
+      onChange={[Function]}
+      placeholder="Correo"
+      type="text"
+      value=""
+    />
+    <input
+      className="text-input text-input-login"
+      onChange={[Function]}
+      placeholder="Contraseña"
+      type="password"
+      value=""
+    />
+    <button
+      className="button button--link button--link__login"
+      onClick={[Function]}
+    >
+      Registrate
+    </button>
+    <button
+      className="button"
+      onClick={[Function]}
+    >
+      Iniciar sesión
+    </button>
+  </div>
+</div>
+`;
